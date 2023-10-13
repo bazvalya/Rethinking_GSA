@@ -412,7 +412,7 @@ def two_regressions_PCE(x, dist_obj, s_max, d_coords, n_runs, n_dcoords):
     LAR_LOO   = np.zeros((n_runs, len(s_max), n_dcoords))
     LAR_MAE   = np.zeros((n_runs, len(s_max), n_dcoords))
 
-    for run in range(10):
+    for run in range(n_runs):
         print("Run:", run)
         g = d_coords[run]
 
