@@ -1,6 +1,9 @@
 # Trajectory-based Global Sensitivity Analysis in Multiscale Models
 
 ## Table of contents
+
+**Adapt in the end accordingly**
+
 - [Overview](#overview)
 - [Key Features](#key-features)
 - [Methodology](#methodology)
@@ -15,22 +18,29 @@ This Git repository offers the code for implementing the concepts presented in t
 
 ## Key Features
 
+**Change the title of this subsection and change the lists**
+
 1. **Benefits of the proposed GSA method:** 
   - The method provides a more informative quantification of parametric sensitivities by:
     - Aggregating multiple outputs and their entire trajectories for a comprehensive analysis.
     - Reducing the dimensionality of the data using Grassmannian Diffusion Maps (GDMaps) for improved understanding.
   - The framework is designed to handle non-linearities and capture interaction effects in agent-based models (ABMs) and complex systems.
-3. **Effect of hyper-parameters and framework specifications:**
+3. **Effects of hyper-parameters and framework specifications:**
   - Sensitivity measures are affected by the choice of Grassmann manifold dimension and maximal polynomial degree.
   - Fine-tuning these hyper-parameters is recommended.
-4. **Potential impacts:**
-  - Deepening the understanding of systems with complex spatiotemporal dynamics by providing insights into parameter sensitivities.
-  - Expanding the application of manifold-based approaches in ABMs and other complex systems, enabling more comprehensive analyses.
+  - Parsimonious and non-parsimonious representations
+4. **Significance of the study:**
+  - By proposing a trajectory-based GSA approach, which can be applied to individual agent (micro), community (meso), and population (macro) levels, this research intends to enhance the study of complex systems through ABMs.
+  - 
+  - 
 
 ## Methodology
+**Put a figure and briefly discuss it**
 
+## Contents of the Repository
 
-## Repository Contents
+**Add DeepABM?  -  then need to add Charles' (or a link to his repository)**
+
 - `GSA_GDM_PCE`: Contains the source code for the proposed method.
 - `notebooks`: Provides examples demonstrating the application of the method and includes the following files:
   - `GSA_results`: Contains the resulting data from applying the framework on the Lotka-Volterra (LV) model (located in the `LV` folder) and the DeepABM COVID-19 model (located in the `parsim` and `nonparsim` folders).
@@ -44,9 +54,15 @@ This Git repository offers the code for implementing the concepts presented in t
 - `Snellius_DeepABM`: This is not a stand-alone repository and contains files used to write data for the DeepABM COVID-19 model together with the [deepabm-covid](https://github.com/ayushchopra96/deepabm-covid.) repository.
 
 ## Data
+
+**Data from DeepABM -?
+Data from Charles -?**
+
 To run with the original data, download it from [https://figshare.com/articles/dataset/data_zip/23515965](https://figshare.com/articles/dataset/output_data_zip/22216921) and add the unzipped folder named `output_data` into `notebooks` folder. `DeepABM_SobolGSA.ipynb` in the `notebook` folder contains code for writing datafile from the original data.
 
 ## Getting Started
+
+**Add requirements**
 
 1. Clone the repository:
 ```
@@ -71,8 +87,12 @@ pip install -r requirements.txt
 
 ## Development
 
+**paraphrase**
+
 This repository is being actively developed. Our objective is to offer a collection of reusable code that enables researchers to replicate results effortlessly and leverage our framework for global sensitivity analysis. Whether you are aiming to reproduce our findings or explore novel applications, this repository provides the necessary tools and resources to support your endeavours.
 
 ## References 
+
+**Add reference to the Charles' repo**
 
 A substantial portion of our implementation stems from [GDM-PCE](https://github.com/katiana22/GDM-PCE). We express our gratitude to the contributors of the original repository for their valuable resources.
