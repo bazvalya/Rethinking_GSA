@@ -1,20 +1,17 @@
 # Trajectory-based Global Sensitivity Analysis in Multiscale Models
 
-This Git repository contains the code implementation for the "Trajectory-based Global Sensitivity Analysis in
-Multiscale Models" paper. The paper introduces a novel approach to global sensitivity analysis (GSA) that is specifically designed to address the challenges posed by models with diverse timescales, structural complexity, and other dynamics inherent in complex systems, such as agent-based models (ABMs).
-
 ## Table of contents
-- [Abstract Summary](#abstract-summary)
+- [Overview](#overview)
 - [Key Features](#key-features)
 - [Methodology](#methodology)
 - [Repository Contents](#repository-contents)
 - [Data](#data)
 - [Getting Started](#getting-started)
 - [Development](#development)
-- [References ](#references)
+- [References](#references)
 
-## Abstract Summary
-This research introduces a novel global sensitivity analysis (GSA) framework for agent-based models (ABMs), explicitly handling the distinctive features of ABMs such as multi-level structure and temporal dynamics. The framework uses Grassmannian diffusion maps to reduce output data dimensionality and sparse polynomial chaos expansion (PCE) to compute sensitivity indices for stochastic input parameters. The proposed GSA method is applied to three different models: non-linear system dynamics and epidemiological and economic ABMs. Unlike traditional GSA approaches, the proposed method enables a more general estimation of parametric sensitivities spanning from individual agents to the entire population. The new framework encourages the use of manifold-based techniques in uncertainty quantification, enhances understanding of complex spatio-temporal processes, and equips ABM practitioners with robust tools for detailed model analysis. This empowers them to make more informed decisions when developing, fine-tuning, and verifying models, thereby advancing the field and improving routine practice for GSA in ABMs
+## Overview
+This Git repository offers the code for implementing the concepts presented in the "Trajectory-based Global Sensitivity Analysis in Multiscale Models" paper. The paper introduces a new method for conducting global sensitivity analysis (GSA), tailored to accommodate the unique features of agent-based models (ABMs) used in modeling complex systems, which include diverse temporal dynamics and multi-level characteristics. The ppoposed framework employs Grassmannian diffusion maps (GDMaps) and sparse polynomial chaos expansion (PCE) to reduce data dimensionality and compute sensitivity indices for uncertain input parameters. The method is applied to three models: a classic Lotka-Volterra dynamical system, DeepABM-COVID, and a poverty trap formation ABM. 
 
 ## Key Features
 
@@ -23,19 +20,15 @@ This research introduces a novel global sensitivity analysis (GSA) framework for
     - Aggregating multiple outputs and their entire trajectories for a comprehensive analysis.
     - Reducing the dimensionality of the data using Grassmannian Diffusion Maps (GDMaps) for improved understanding.
   - The framework is designed to handle non-linearities and capture interaction effects in agent-based models (ABMs) and complex systems.
-2. **Successful application:**
-  - The method has been successfully applied to both a classic Lotka-Volterra dynamical system and a large-scale ABM model.
-  - Application of the framework revealed important parameter relations and relative influences on the model outputs.
-3. **Influence of hyper-parameters:**
+3. **Effect of hyper-parameters and framework specifications:**
   - Sensitivity measures are affected by the choice of Grassmann manifold dimension and maximal polynomial degree.
   - Fine-tuning these hyper-parameters is recommended.
 4. **Potential impacts:**
   - Deepening the understanding of systems with complex spatiotemporal dynamics by providing insights into parameter sensitivities.
   - Expanding the application of manifold-based approaches in ABMs and other complex systems, enabling more comprehensive analyses.
 
-## Methodology and Application Setup
+## Methodology
 
-A detailed overview of the proposed methodology can be found in [SI Section B.1](https://doi.org/10.5281/zenodo.8050579), and descriptions of the two models used to illustrate the application of the proposed framework and the corresponding setup used for evaluation are presented in [SI Sections B.2 and B.3](https://doi.org/10.5281/zenodo.8050579).
 
 ## Repository Contents
 - `GSA_GDM_PCE`: Contains the source code for the proposed method.
