@@ -36,7 +36,7 @@ This Git repository offers the code for implementing the concepts presented in t
 
 ## Data
 
-To run with the original data for the DeepABM-COVID, download it from [https://figshare.com/articles/dataset/data_zip/23515965](https://figshare.com/articles/dataset/output_data_zip/22216921) and add the unzipped folder named `output_data` into the `notebooks/data/data_DeepABM` folder. `DeepABM_SobolGSA.ipynb` in the `notebook` folder contains code for writing datafile from the original data.
+To use the original data for DeepABM-COVID, obtain it from [https://figshare.com/articles/dataset/data_zip/23515965](https://figshare.com/articles/dataset/output_data_zip/22216921) and insert the unzipped folder named 'output_data' into the 'notebooks/data/data_DeepABM' directory. You can find the code for writing datafiles from the original data in the 'DeepABM_SobolGSA.ipynb' file located in the 'notebook' directory.
 
 For the poverty trap formation ABM, dowload the data from [https://figshare.com/articles/dataset/ABM_output/24517021](https://figshare.com/articles/dataset/ABM_output/24517021). To run with it, add the unzipped folder into the `notebooks/data/data_PT` folder, and rename it to `arrays_for_GDMaps`.
 
@@ -71,4 +71,4 @@ We are continuously working on the enhancement of this repository. Our aim is to
 
 The repository containing the source code for the poverty trap formation ABM can be found at [charlesaugdupont/poverty-trap](https://github.com/charlesaugdupont/poverty-trap).
 
-A substantial portion of our implementation stems from [GDM-PCE](https://github.com/katiana22/GDM-PCE). We express our gratitude to the contributors of the original repository for their valuable resources.
+A significant portion of our implementation is derived from [GDM-PCE](https://github.com/katiana22/GDM-PCE). We want to extend our appreciation to the contributors of the original repository for their invaluable contributions.
