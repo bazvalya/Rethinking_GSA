@@ -1,8 +1,8 @@
 notebooks/data/data_DeepABM/*.pickle
-notebooks/data/data_PT/data_6_param/*.pickle
-notebooks/data/data_PT/data_6_param/*.pkl.lzma
-notebooks/data/data_PT/data_6_param/arrays_for_GDMaps/*.pickle
-notebooks/data/data_PT/data_6_param/arrays_for_GDMaps/micro_level/*.pkl.lzma
+notebooks/data/data_PT/*.pickle
+notebooks/data/data_PT/*.pkl.lzma
+notebooks/data/data_PT/arrays_for_GDMaps/*.pickle
+notebooks/data/data_PT/arrays_for_GDMaps/micro_level/*.pkl.lzma
 
 **/.DS_Store
 **/.ipynb_checkpoints
