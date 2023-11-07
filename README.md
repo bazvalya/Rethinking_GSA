@@ -5,7 +5,6 @@
 **Adapt in the end accordingly**
 
 - [Overview](#overview)
-- [Key Features](#key-features)
 - [Methodology](#methodology)
 - [Repository Contents](#repository-contents)
 - [Data](#data)
@@ -16,28 +15,10 @@
 ## Overview
 This Git repository offers the code for implementing the concepts presented in the "Trajectory-based Global Sensitivity Analysis in Multiscale Models" paper. The paper introduces a new method for conducting global sensitivity analysis (GSA), tailored to accommodate the unique features of agent-based models (ABMs) used in modeling complex systems, which include diverse temporal dynamics and multi-level characteristics. The ppoposed framework employs Grassmannian diffusion maps (GDMaps) and sparse polynomial chaos expansion (PCE) to reduce data dimensionality and compute sensitivity indices for uncertain input parameters. The method is applied to three models: a classic Lotka-Volterra dynamical system, DeepABM-COVID, and a poverty trap formation ABM. 
 
-## Key Features
-
-**Change the title of this subsection and change the lists**
-
-1. **Benefits of the proposed GSA method:** 
-  - The method provides a more informative quantification of parametric sensitivities by:
-    - Aggregating multiple outputs and their entire trajectories for a comprehensive analysis.
-    - Reducing the dimensionality of the data using Grassmannian Diffusion Maps (GDMaps) for improved understanding.
-  - The framework is designed to handle non-linearities and capture interaction effects in agent-based models (ABMs) and complex systems.
-3. **Effects of hyper-parameters and framework specifications:**
-  - Sensitivity measures are affected by the choice of Grassmann manifold dimension and maximal polynomial degree.
-  - Fine-tuning these hyper-parameters is recommended.
-  - Parsimonious and non-parsimonious representations
-4. **Significance of the study:**
-  - By proposing a trajectory-based GSA approach, which can be applied to individual agent (micro), community (meso), and population (macro) levels, this research intends to enhance the study of complex systems through ABMs.
-  - 
-  - 
-
 ## Methodology
 **Put a figure and briefly discuss it**
 
-## Contents of the Repository
+## Contents of the repository
 
 **Add DeepABM?  -  then need to add Charles' (or a link to his repository)**
 
