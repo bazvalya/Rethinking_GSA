@@ -23,26 +23,22 @@ This Git repository offers the code for implementing the concepts presented in t
 
 ## Contents of the repository
 
-**Add DeepABM?  -  then need to add Charles' (or a link to his repository)**
-
-- `GSA_GDM_PCE`: Contains the source code for the proposed method.
+- `GDMaps_PCE`: Contains the source code for the proposed method.
 - `notebooks`: Provides examples demonstrating the application of the method and includes the following files:
-  - `GSA_results`: Contains the resulting data from applying the framework on the Lotka-Volterra (LV) model (located in the `LV` folder) and the DeepABM COVID-19 model (located in the `parsim` and `nonparsim` folders).
-  - `input_data`: Contains the input data of parameter combinations sampled with a low-discrepancy sequence, which is required for running the code.
-  - `pce_accuracy`: Contains the resulting plots generated when assessing the accuracy of the PCE.
+  - `data`: Contains the data used in creating plots.
   - `plots`: Contains all plots used in the paper (main text) and Supplementary Information (SI).
-  - `DeepABM_PCE-GSA.ipynb`: Jupyter notebook demonstrating the application of the framework on the DeepABM COVID-19 model.
+  - `pce_accuracy`: Contains the resulting plots generated when assessing the accuracy of the PCE.
+  - `DeepABM_GSA.ipynb`: Jupyter notebook demonstrating the application of the framework on the DeepABM COVID-19 model.
   - `DeepABM_SobolGSA.ipynb`: Jupyter notebook demonstrating GSA for the DeepABM COVID-19 model using conventional Sobol' index calculation methods over multiple time steps.
-  - `GDMaps_PCE_LV.ipynb`: Jupyter notebook demonstrating the application of the proposed framework on the Lotka-Volterra (LV) model.
-  - `GDMaps_unit_sphere.ipynb`: Jupyter notebook containing a simple example illustrating GDMaps' capability to capture intrinsic geometric structures, following the example previously used by [Dos Santos et al.](https://arxiv.org/abs/2009.07547).
+  - `LV_GSA.ipynb`: Jupyter notebook demonstrating the application of the proposed framework on the Lotka-Volterra (LV) model.
+  - `PT-6_GSA.ipynb`: Jupyter notebook demonstrating the application of the proposed framework on the poverty trap formation ABM at the micro,meso, and macro levels.
 - `Snellius_DeepABM`: This is not a stand-alone repository and contains files used to write data for the DeepABM COVID-19 model together with the [deepabm-covid](https://github.com/ayushchopra96/deepabm-covid.) repository.
 
 ## Data
 
-**Data from DeepABM -?
-Data from Charles -?**
+To run with the original data for the DeepABM-COVID, download it from [https://figshare.com/articles/dataset/data_zip/23515965](https://figshare.com/articles/dataset/output_data_zip/22216921) and add the unzipped folder named `output_data` into the `notebooks/data/data_DeepABM` folder. `DeepABM_SobolGSA.ipynb` in the `notebook` folder contains code for writing datafile from the original data.
 
-To run with the original data, download it from [https://figshare.com/articles/dataset/data_zip/23515965](https://figshare.com/articles/dataset/output_data_zip/22216921) and add the unzipped folder named `output_data` into `notebooks` folder. `DeepABM_SobolGSA.ipynb` in the `notebook` folder contains code for writing datafile from the original data.
+For the poverty trap formation ABM, dowload the data from [https://figshare.com/articles/dataset/ABM_output/24517021](https://figshare.com/articles/dataset/ABM_output/24517021). To run with it, add the unzipped folder into the `notebooks/data/data_PT` folder, and rename it to `arrays_for_GDMaps`.
 
 ## Getting Started
 
