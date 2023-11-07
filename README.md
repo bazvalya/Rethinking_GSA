@@ -73,6 +73,6 @@ This repository is being actively developed. Our objective is to offer a collect
 
 ## References 
 
-**Add reference to the Charles' repo**
+The repository containing the source code for the poverty trap formation ABM can be found at [charlesaugdupont/poverty-trap](https://github.com/charlesaugdupont/poverty-trap).
 
 A substantial portion of our implementation stems from [GDM-PCE](https://github.com/katiana22/GDM-PCE). We express our gratitude to the contributors of the original repository for their valuable resources.
