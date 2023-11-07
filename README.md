@@ -18,7 +18,7 @@ This Git repository offers the code for implementing the concepts presented in t
 ## Methodology
 
 <p align="center">
-  <img width="364" src="repository_files/consensus_example.gif">
+  <img width="620" src="repository_files/GSA_GDMaps_PCE_pipeline.jpg">
 </p>
 
 ## Contents of the repository
