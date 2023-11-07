@@ -21,7 +21,7 @@ This Git repository offers the code for implementing the concepts presented in t
   <img width="1000" src="repository_files/GSA_GDMaps_PCE_pipeline.jpg">
 </p>
 
-## Contents of the repository
+## Repository Contents
 
 - `GDMaps_PCE`: This directory holds the source code for the newly introduced method of GSA using GDMaps PCE.
 - `notebooks`: Within this folder, you'll find various illustrative examples demonstrating the method's practical application. It includes the following files:
@@ -42,15 +42,13 @@ For the poverty trap formation ABM, dowload the data from [https://figshare.com/
 
 ## Getting Started
 
-**Add requirements**
-
 1. Clone the repository:
 ```
-git clone git@github.com:bazvalya/GSA_using_GDMaps_PCE.git
+git clone git@github.com:bazvalya/Rethinking_GSA.git
 ```
 and navigate to it on the local machine:
 ```
-cd GSA_using_GDMaps_PCE
+cd Rethinking_GSA
 ```
 2. Create a virtual environment (Python 3.10):
 ```
@@ -61,15 +59,13 @@ and activate it with:
 source new_environment_name/bin/activate
 ```
 3. Install the required packages with:
-```bash
+```
 pip install -r requirements.txt
 ```
 
 ## Development
 
-**paraphrase**
-
-This repository is being actively developed. Our objective is to offer a collection of reusable code that enables researchers to replicate results effortlessly and leverage our framework for global sensitivity analysis. Whether you are aiming to reproduce our findings or explore novel applications, this repository provides the necessary tools and resources to support your endeavours.
+We are continuously working on the enhancement of this repository. Our aim is to provide aa collection of reusable code that empowers researchers to effortlessly replicate our results and utilize our framework for conducting GSA. Whether you intend to recreate our results or embark on new research endeavors, this repository equips you with the essential tools and resources to facilitate your pursuits.
 
 ## References 
 
