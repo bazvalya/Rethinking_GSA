@@ -23,16 +23,16 @@ This Git repository offers the code for implementing the concepts presented in t
 
 ## Contents of the repository
 
-- `GDMaps_PCE`: Contains the source code for the proposed method.
-- `notebooks`: Provides examples demonstrating the application of the method and includes the following files:
-  - `data`: Contains the data used in creating plots.
-  - `plots`: Contains all plots used in the paper (main text) and Supplementary Information (SI).
-  - `pce_accuracy`: Contains the resulting plots generated when assessing the accuracy of the PCE.
-  - `DeepABM_GSA.ipynb`: Jupyter notebook demonstrating the application of the framework on the DeepABM COVID-19 model.
-  - `DeepABM_SobolGSA.ipynb`: Jupyter notebook demonstrating GSA for the DeepABM COVID-19 model using conventional Sobol' index calculation methods over multiple time steps.
-  - `LV_GSA.ipynb`: Jupyter notebook demonstrating the application of the proposed framework on the Lotka-Volterra (LV) model.
-  - `PT-6_GSA.ipynb`: Jupyter notebook demonstrating the application of the proposed framework on the poverty trap formation ABM at the micro,meso, and macro levels.
-- `Snellius_DeepABM`: This is not a stand-alone repository and contains files used to write data for the DeepABM COVID-19 model together with the [deepabm-covid](https://github.com/ayushchopra96/deepabm-covid.) repository.
+- `GDMaps_PCE`: This directory holds the source code for the newly introduced method of GSA using GDMaps PCE.
+- `notebooks`: Within this folder, you'll find various illustrative examples demonstrating the method's practical application. It includes the following files:
+  - `data`: Contains the datasets used for generating plots.
+  - `plots`: Stores all the plots featured in both the main text and Supplementary Information (SI).
+  - `pce_accuracy`: Stores the resulting plots produced during the assessment of the accuracy of the PCE step.
+  - `DeepABM_GSA.ipynb`: A Jupyter notebook illustrating the framework's use on the DeepABM COVID-19 model.
+  - `DeepABM_SobolGSA.ipynb`: Another Jupyter notebook showcasing GSA for the DeepABM COVID-19 model using traditional Sobol' index calculation methods across multiple time steps.
+  - `LV_GSA.ipynb`: A Jupyter notebook providing insight into the framework's application on the Lotka-Volterra (LV) model.
+  - `PT-6_GSA.ipynb`:  A Jupyter notebook demonstrating the application of the framework on the poverty trap formation ABM at multiple analysis levels: micro, meso, and macro.
+- `Snellius_DeepABM`: This is not a standalone repository; rather, it contains files used to compile data for the DeepABM COVID-19 model, in collaboration with the [deepabm-covid](https://github.com/ayushchopra96/deepabm-covid.) repository.
 
 ## Data
 
